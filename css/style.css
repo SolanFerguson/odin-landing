@@ -100,7 +100,27 @@ h3 {
   text-align: center;
   padding: 0;
 }
-
+.quote {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 200px;
+  font-size: 36px;
+  color: #1f2937;
+  background-color: #e5e7eb;
+  margin: 14px 0px;
+}
+.quote.text {
+  padding: 0px;
+  font-weight: 100;
+  margin-top: 80px;
+}
+.quote.author {
+  align-self: flex-end;
+  padding: 0px;
+  font-size: 24px;
+  font-weight: 700;
+  margin-bottom: 80px;
+}
 footer {
   display: flex;
   justify-content: center;
