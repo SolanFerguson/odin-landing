@@ -1,12 +1,11 @@
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;
-  /* display: flex; */
-  /* flex-direction: column; */
   min-width: fit-content;
   min-height: 100vh;
 }
 
+.header.link,
 a,
 ul {
   text-decoration: none;
@@ -22,19 +21,21 @@ h1 {
   margin: 0px;
 }
 
-.hero,
-footer {
-  background-color: #1f2937;
+h3 {
+  font-size: 36px;
+  font-weight: 800;
+  color: #1f2937;
+  display: flex;
+  text-align: center;
+  height: 60px;
+  justify-content: center;
+  align-items: center;
 }
 
 .header.link,
 .welcome.info {
   font-size: 18px;
   color: #e5e7eb;
-}
-
-.header.link {
-  padding: 0px;
 }
 
 .header.logo {
@@ -49,6 +50,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   gap: 8px;
+  background-color: #1f2937;
 }
 
 .hero.banner {
@@ -59,7 +61,7 @@ footer {
   align-items: center;
   gap: 80px;
   padding: 80px 140px;
-  /* flex: auto; */
+  background-color: #1f2937;
 }
 
 .welcome {
@@ -80,11 +82,31 @@ footer {
   border-radius: 0.5em;
 }
 
+.content.image {
+  display: flex;
+  flex-direction: row;
+  padding: 0px 140px;
+  padding-bottom: 60px;
+  gap: 16px;
+}
+
+.content .info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.info .subtext {
+  text-align: center;
+  padding: 0;
+}
+
 footer {
   display: flex;
   justify-content: center;
   text-align: center;
   color: #f9faf8;
+  background-color: #1f2937;
 }
 
 footer a {
