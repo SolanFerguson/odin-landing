@@ -44,7 +44,7 @@ footer {
 }
 
 .header {
-  padding: 0px 200px;
+  padding: 0px 140px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -58,7 +58,7 @@ footer {
   justify-content: space-between;
   align-items: center;
   gap: 80px;
-  padding: 80px 200px;
+  padding: 80px 140px;
   /* flex: auto; */
 }
 
