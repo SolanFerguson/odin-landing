@@ -89,7 +89,12 @@ h3 {
   padding-bottom: 60px;
   gap: 16px;
 }
-
+.content img {
+  border-radius: 0.7em;
+  outline-width: 0.15em;
+  outline-style: solid;
+  outline-color: #3882f6;
+}
 .content .info {
   display: flex;
   flex-direction: column;
